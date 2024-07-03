@@ -5,7 +5,7 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBL9qif4fVy_kySAJm5Qb_N0zltuiWHvsE",
+  apiKey:"AIzaSyBL9qif4fVy_kySAJm5Qb_N0zltuiWHvsE",
   authDomain: "travel-planner-ac125.firebaseapp.com",
   projectId: "travel-planner-ac125",
   storageBucket: "travel-planner-ac125.appspot.com",
