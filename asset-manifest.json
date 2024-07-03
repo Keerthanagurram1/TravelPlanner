@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Keerthanagurram1/TravelPlanner/static/css/main.97495b74.css",
+    "main.js": "/Keerthanagurram1/TravelPlanner/static/js/main.e53af1d4.js",
+    "static/js/453.1ce232ec.chunk.js": "/Keerthanagurram1/TravelPlanner/static/js/453.1ce232ec.chunk.js",
+    "index.html": "/Keerthanagurram1/TravelPlanner/index.html",
+    "main.97495b74.css.map": "/Keerthanagurram1/TravelPlanner/static/css/main.97495b74.css.map",
+    "main.e53af1d4.js.map": "/Keerthanagurram1/TravelPlanner/static/js/main.e53af1d4.js.map",
+    "453.1ce232ec.chunk.js.map": "/Keerthanagurram1/TravelPlanner/static/js/453.1ce232ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97495b74.css",
+    "static/js/main.e53af1d4.js"
+  ]
+}
