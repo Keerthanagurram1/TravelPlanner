@@ -97,7 +97,7 @@ return(
     <div className="fixed -z-10">
         <img className="h-screen w-screen object-cover" src="https://static.toiimg.com/photo/msid-96457229,width-96,height-65.cms" alt="bg-image"/>
     </div>
-    <div className="bg-gray-700 w-3/12  mx-auto p-4 rounded-lg ">
+    <div className="bg-gray-700 w-6/12  mx-auto p-4 rounded-lg ">
     <h1 className="text-center text-white text-2xl font-bold mb-6">Make My Trip</h1>
     <div className="flex flex-col space-y-4">
     <div>
