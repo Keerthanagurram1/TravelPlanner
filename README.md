@@ -16,6 +16,8 @@
       🎯Build Sign-In and Sign-Up forms.
       🎯Implement form validation.
       🎯Handle user authentication using Firebase.
+      
+👉 Created Redux Store with userSlice
 
 👉 Main Page for Trip Management
 
@@ -27,7 +29,7 @@
 👉 Feedback Form
 
         🎯Build a feedback form for user input.
-        
+
 👉User Session Management
 
 I       🎯mplement sign-out functionality.

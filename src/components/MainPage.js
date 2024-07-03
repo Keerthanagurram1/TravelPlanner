@@ -39,7 +39,7 @@ const MainPage =()=>{
         const snapshot = await getDocs(dbref)
         const fetchdata = snapshot.docs.map((doc => ({id: doc.id, ...doc.data()})))
         setFetchData(fetchdata)
-        console.log(fetchdata)
+  
     }
     useEffect(()=>{
         fetch()
@@ -185,10 +185,10 @@ return(
 
 <div className="m-12">
     <h2 className="text-2xl font-bold mb-4 text-white">Trip Details</h2>
-    <div className=" grid grid-cols-3 gap-4">
+    <div className=" grid  grid-cols-none md:grid-cols-3 gap-4">
         {fetchData.map((data) => (
             <div key={data.id} className="bg-gray-800 p-4 rounded-lg shadow-md">
-                <h2 className="text-white text-lg font-semibold mb-2">Start From: {data.StartFrom}</h2>
+                <h2 className="text-white text-xl md:text-lg font-semibold mb-2">Start From: {data.StartFrom}</h2>
                 <h2 className="text-white text-lg font-semibold mb-2">Destination: {data.Destination}</h2>
                 <h2 className="text-white text-lg font-semibold mb-2">Start Date: {data.StartDate}</h2>
                 <h2 className="text-white text-lg font-semibold mb-2">Return Date: {data.ReturnDate}</h2>
@@ -214,7 +214,7 @@ return(
     </div>
 </div>
 
-<button onClick={feedback} className="text-white font-bold border bg-black text-lg px-6 py-4 flex justify-center mx-auto">
+<button onClick={feedback} className="text-white font-bold border bg-green-600 text-lg px-6 py-4 flex justify-center mx-auto">
     Your feedback matters to us! Share your thoughts and help us improve.</button>
  </>
 )
